@@ -216,6 +216,7 @@
     //[t enablefefe:[t activePeripheral]];
     
     [self enable_uart_rx:p];
+    [self Get_DEV_CBPeripheral:@""];
     [self enable_uart_tx:p];
     
     [self enable_battery:TRUE p:p];
