@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C610447C19010DE100F6D2A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610447B19010DE100F6D2A9 /* Foundation.framework */; };
+		C610448119010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C610448019010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1.h */; };
+		C610448319010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1.m in Sources */ = {isa = PBXBuildFile; fileRef = C610448219010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1.m */; };
+		C610448A19010DE100F6D2A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610448919010DE100F6D2A9 /* XCTest.framework */; };
+		C610448B19010DE100F6D2A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610447B19010DE100F6D2A9 /* Foundation.framework */; };
+		C610448D19010DE100F6D2A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610448C19010DE100F6D2A9 /* UIKit.framework */; };
+		C610449019010DE100F6D2A9 /* libTuner168_BLE_IOS_SDK_V1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C610447819010DE100F6D2A9 /* libTuner168_BLE_IOS_SDK_V1.a */; };
+		C610449619010DE100F6D2A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C610449419010DE100F6D2A9 /* InfoPlist.strings */; };
+		C610449819010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C610449719010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C610448E19010DE100F6D2A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C610447019010DE100F6D2A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C610447719010DE100F6D2A9;
+			remoteInfo = Tuner168_BLE_IOS_SDK_V1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C610447619010DE100F6D2A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C610448119010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C610447819010DE100F6D2A9 /* libTuner168_BLE_IOS_SDK_V1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTuner168_BLE_IOS_SDK_V1.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C610447B19010DE100F6D2A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C610447F19010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tuner168_BLE_IOS_SDK_V1-Prefix.pch"; sourceTree = "<group>"; };
+		C610448019010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tuner168_BLE_IOS_SDK_V1.h; sourceTree = "<group>"; };
+		C610448219010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tuner168_BLE_IOS_SDK_V1.m; sourceTree = "<group>"; };
+		C610448819010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tuner168_BLE_IOS_SDK_V1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C610448919010DE100F6D2A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C610448C19010DE100F6D2A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C610449319010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tuner168_BLE_IOS_SDK_V1Tests-Info.plist"; sourceTree = "<group>"; };
+		C610449519010DE100F6D2A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C610449719010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tuner168_BLE_IOS_SDK_V1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C610447519010DE100F6D2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C610447C19010DE100F6D2A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C610448519010DE100F6D2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C610448A19010DE100F6D2A9 /* XCTest.framework in Frameworks */,
+				C610448D19010DE100F6D2A9 /* UIKit.framework in Frameworks */,
+				C610449019010DE100F6D2A9 /* libTuner168_BLE_IOS_SDK_V1.a in Frameworks */,
+				C610448B19010DE100F6D2A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C610446F19010DE100F6D2A9 = {
+			isa = PBXGroup;
+			children = (
+				C610447D19010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1 */,
+				C610449119010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests */,
+				C610447A19010DE100F6D2A9 /* Frameworks */,
+				C610447919010DE100F6D2A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C610447919010DE100F6D2A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C610447819010DE100F6D2A9 /* libTuner168_BLE_IOS_SDK_V1.a */,
+				C610448819010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C610447A19010DE100F6D2A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C610447B19010DE100F6D2A9 /* Foundation.framework */,
+				C610448919010DE100F6D2A9 /* XCTest.framework */,
+				C610448C19010DE100F6D2A9 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C610447D19010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1 */ = {
+			isa = PBXGroup;
+			children = (
+				C610448019010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1.h */,
+				C610448219010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1.m */,
+				C610447E19010DE100F6D2A9 /* Supporting Files */,
+			);
+			path = Tuner168_BLE_IOS_SDK_V1;
+			sourceTree = "<group>";
+		};
+		C610447E19010DE100F6D2A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C610447F19010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C610449119010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C610449719010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests.m */,
+				C610449219010DE100F6D2A9 /* Supporting Files */,
+			);
+			path = Tuner168_BLE_IOS_SDK_V1Tests;
+			sourceTree = "<group>";
+		};
+		C610449219010DE100F6D2A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C610449319010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests-Info.plist */,
+				C610449419010DE100F6D2A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C610447719010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C610449B19010DE100F6D2A9 /* Build configuration list for PBXNativeTarget "Tuner168_BLE_IOS_SDK_V1" */;
+			buildPhases = (
+				C610447419010DE100F6D2A9 /* Sources */,
+				C610447519010DE100F6D2A9 /* Frameworks */,
+				C610447619010DE100F6D2A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tuner168_BLE_IOS_SDK_V1;
+			productName = Tuner168_BLE_IOS_SDK_V1;
+			productReference = C610447819010DE100F6D2A9 /* libTuner168_BLE_IOS_SDK_V1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C610448719010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C610449E19010DE100F6D2A9 /* Build configuration list for PBXNativeTarget "Tuner168_BLE_IOS_SDK_V1Tests" */;
+			buildPhases = (
+				C610448419010DE100F6D2A9 /* Sources */,
+				C610448519010DE100F6D2A9 /* Frameworks */,
+				C610448619010DE100F6D2A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C610448F19010DE100F6D2A9 /* PBXTargetDependency */,
+			);
+			name = Tuner168_BLE_IOS_SDK_V1Tests;
+			productName = Tuner168_BLE_IOS_SDK_V1Tests;
+			productReference = C610448819010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C610447019010DE100F6D2A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LXXAVR;
+			};
+			buildConfigurationList = C610447319010DE100F6D2A9 /* Build configuration list for PBXProject "Tuner168_BLE_IOS_SDK_V1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C610446F19010DE100F6D2A9;
+			productRefGroup = C610447919010DE100F6D2A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C610447719010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1 */,
+				C610448719010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C610448619010DE100F6D2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C610449619010DE100F6D2A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C610447419010DE100F6D2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C610448319010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C610448419010DE100F6D2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C610449819010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C610448F19010DE100F6D2A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C610447719010DE100F6D2A9 /* Tuner168_BLE_IOS_SDK_V1 */;
+			targetProxy = C610448E19010DE100F6D2A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C610449419010DE100F6D2A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C610449519010DE100F6D2A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C610449919010DE100F6D2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C610449A19010DE100F6D2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C610449C19010DE100F6D2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Tuner168_BLE_IOS_SDK_V1.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tuner168_BLE_IOS_SDK_V1/Tuner168_BLE_IOS_SDK_V1-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C610449D19010DE100F6D2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Tuner168_BLE_IOS_SDK_V1.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tuner168_BLE_IOS_SDK_V1/Tuner168_BLE_IOS_SDK_V1-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C610449F19010DE100F6D2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tuner168_BLE_IOS_SDK_V1/Tuner168_BLE_IOS_SDK_V1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tuner168_BLE_IOS_SDK_V1Tests/Tuner168_BLE_IOS_SDK_V1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C61044A019010DE100F6D2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tuner168_BLE_IOS_SDK_V1/Tuner168_BLE_IOS_SDK_V1-Prefix.pch";
+				INFOPLIST_FILE = "Tuner168_BLE_IOS_SDK_V1Tests/Tuner168_BLE_IOS_SDK_V1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C610447319010DE100F6D2A9 /* Build configuration list for PBXProject "Tuner168_BLE_IOS_SDK_V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C610449919010DE100F6D2A9 /* Debug */,
+				C610449A19010DE100F6D2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C610449B19010DE100F6D2A9 /* Build configuration list for PBXNativeTarget "Tuner168_BLE_IOS_SDK_V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C610449C19010DE100F6D2A9 /* Debug */,
+				C610449D19010DE100F6D2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C610449E19010DE100F6D2A9 /* Build configuration list for PBXNativeTarget "Tuner168_BLE_IOS_SDK_V1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C610449F19010DE100F6D2A9 /* Debug */,
+				C61044A019010DE100F6D2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C610447019010DE100F6D2A9 /* Project object */;
+}
